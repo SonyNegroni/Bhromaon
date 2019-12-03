@@ -40,6 +40,7 @@ body {
 
 .middle_icon {
    padding-left: 4mm;
+   background-color: #333;
 }
 
 body {
@@ -138,7 +139,9 @@ header {
 }
 
 .search-btn i {
-	font-size: 14px
+    font-size: 20px;
+    position: relative;
+    top: 5px;
 }
 
 .scroll-down {
@@ -285,11 +288,14 @@ menu {
 }
 
 .section_two_howItWorks {
+    bottom: 20px;
 	padding: 0 400px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	text-align: center
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    position: relative;
 }
 
 .section_two-arrow-down,
@@ -327,7 +333,8 @@ menu {
 .dots_block {
 	background-image: url(../assets/img/dots.png);
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
 	height: 99px
 }
 
@@ -699,7 +706,7 @@ footer {
     }
 
     .search-btn {
-        background-image: url(../assets/img/search.png);
+        background-image: url(../assets/img/search.svg);
         background-position: center;
 	    background-repeat: no-repeat
     }
